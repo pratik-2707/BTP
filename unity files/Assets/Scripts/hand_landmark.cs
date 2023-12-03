@@ -1,0 +1,55 @@
+using UnityEngine;
+[System.Serializable]
+public class hand_landmark
+{
+    public int 
+width,
+height,
+wrist_X,
+wrist_Y,
+thumb_cmc_X,
+thumb_mcp_X,
+thumb_ip_X,
+thumb_tip_X,
+index_finger_mcp_X,
+index_finger_pip_X,
+index_finger_dip_X,
+index_finger_tip_X,
+middle_finger_mcp_X,
+middle_finger_pip_X,
+middle_finger_dip_X,
+middle_finger_tip_X,
+ring_finger_mcp_X,
+ring_finger_pip_X,
+ring_finger_dip_X,
+ring_finger_tip_X,
+pinky_mcp_X,
+pinky_pip_X,
+pinky_dip_X,
+pinky_tip_X,
+thumb_cmc_Y,
+thumb_mcp_Y,
+thumb_ip_Y,
+thumb_tip_Y,
+index_finger_mcp_Y,
+index_finger_pip_Y,
+index_finger_dip_Y,
+index_finger_tip_Y,
+middle_finger_mcp_Y,
+middle_finger_pip_Y,
+middle_finger_dip_Y,
+middle_finger_tip_Y,
+ring_finger_mcp_Y,
+ring_finger_pip_Y,
+ring_finger_dip_Y,
+ring_finger_tip_Y,
+pinky_mcp_Y,
+pinky_pip_Y,
+pinky_dip_Y,
+pinky_tip_Y
+;
+    public void print(){
+        Debug.Log("width="+this.width);
+        Debug.Log("height="+this.height);
+    }
+}
